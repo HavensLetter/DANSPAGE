@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Dr. Daniel Ivankovich</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #fefbf8;
+      color: #2e2a26;
+    }
+    nav {
+      background: #2e1f1a;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-logo {
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+    }
+    .nav-links a,
+    .dropdown-btn {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      background: none;
+      border: none;
+      cursor: pointer;
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f7eade;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 30px;
+    }
+    .dropdown-content a {
+      color: #2e1f1a;
+      padding: 10px 16px;
+      display: block;
+      text-decoration: none;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    header {
+      background: #e8ddd3;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      color: #3b2a20;
+    }
+    .content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #4a3528;
+      margin-top: 40px;
+    }
+    .footer {
+      background: #2e1f1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Dr. Ivankovich</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropdown-btn">The Bone Yard ▾</button>
+        <div class="dropdown-content">
+          <a href="knee.html">Knee Surgery</a>
+          <a href="hip.html">Hip Surgery</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Meet Dr. Daniel Ivankovich</h1>
+    <p>Orthopedic Surgeon • Advocate • Bone Healer</p>
+  </header>
+
+  <div class="content">
+    <h2>Restoring More Than Bones</h2>
+    <p>
+      Dr. Daniel Ivankovich is more than an orthopedic surgeon — he’s a movement maker. Known nationally as “The Bone Healer,” he has dedicated his life to restoring mobility, dignity, and hope to thousands of patients in underserved communities. 
+    </p>
+
+    <h2>A Surgeon with Soul</h2>
+    <p>
+      With over two decades of experience specializing in spine, knee, and hip reconstruction, Dr. Ivankovich brings both clinical precision and deep compassion to every case. His philosophy is simple: every patient deserves expert care, regardless of income, background, or insurance status.
+    </p>
+
+    <h2>Bridging Medicine and Mission</h2>
+    <p>
+      As co-founder of the OnePatient Global Health Initiative, Dr. Ivankovich has delivered over $50 million in free surgical and rehabilitative services to Chicago-area patients who would have otherwise gone untreated. His work has been featured by CNN Heroes, Oprah, NPR, and countless other outlets.
+    </p>
+
+    <h2>Beyond the Operating Room</h2>
+    <p>
+      A former blues musician and community activist, Dr. Dan’s presence extends beyond the hospital. He’s as comfortable with a guitar as he is with a scalpel — bringing healing and rhythm to every space he enters.
+    </p>
+
+    <h2>Credentials That Matter</h2>
+    <ul>
+      <li>Board-Certified Orthopedic Surgeon</li>
+      <li>Fellowship-Trained in Spine and Joint Reconstruction</li>
+      <li>Medical Director, OnePatient Global Health</li>
+      <li>Recognized by CNN Heroes, Chicago Tribune, and Rolling Stone</li>
+    </ul>
+
+    <h2>Why Patients Trust Dr. Dan</h2>
+    <p>
+      Dr. Ivankovich doesn’t just perform procedures — he changes lives. From chronic pain relief to total joint renewal, his outcomes speak for themselves. Patients trust him not just for his skill, but for his genuine care.
+    </p>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Dr. Daniel Ivankovich. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Bone Yard | Dr. Daniel Ivankovich</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #fefbf8;
+      color: #2e2a26;
+    }
+    nav {
+      background: #2e1f1a;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-logo {
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+    }
+    .nav-links a,
+    .dropdown-btn {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      background: none;
+      border: none;
+      cursor: pointer;
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f7eade;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 30px;
+    }
+    .dropdown-content a {
+      color: #2e1f1a;
+      padding: 10px 16px;
+      display: block;
+      text-decoration: none;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    header {
+      background: #e8ddd3;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      color: #3b2a20;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #4a3528;
+    }
+    .footer {
+      background: #2e1f1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Dr. Ivankovich</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropdown-btn">The Bone Yard ▾</button>
+        <div class="dropdown-content">
+          <a href="knee.html">Knee Surgery</a>
+          <a href="hip.html">Hip Surgery</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>The Bone Yard</h1>
+    <p>Explore Dr. Dan's Surgical Expertise in Joint Restoration</p>
+  </header>
+
+  <div class="content">
+    <h2>Welcome to the Bone Yard</h2>
+    <p>This is your go-to hub for understanding the advanced orthopedic care Dr. Daniel Ivankovich provides. Whether you're navigating persistent pain, reduced mobility, or post-traumatic joint issues, this section breaks down what you need to know.</p>
+
+    <h2>Knee Surgery</h2>
+    <p>From ACL reconstruction to total knee replacements, Dr. Dan utilizes the latest in orthopedic tech and personalized care to return patients to active, pain-free lifestyles. <a href="knee.html">Learn more →</a></p>
+
+    <h2>Hip Surgery</h2>
+    <p>Hip joint degeneration doesn’t have to be a life sentence. Discover Dr. Ivankovich’s approach to total hip replacement, revision surgery, and advanced treatments for complex hip cases. <a href="hip.html">Explore hip procedures →</a></p>
+
+    <h2>Why The Bone Yard?</h2>
+    <p>It’s not just about bones — it’s about rebuilding lives. The Bone Yard reflects Dr. Dan’s mission: to serve patients with compassion, precision, and world-class orthopedic solutions. Dive deep into procedures that restore strength, structure, and stability.</p>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Dr. Daniel Ivankovich. All rights reserved.
+  </footer>
+
+</body>
+</html>
